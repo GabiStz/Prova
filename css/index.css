@@ -1,0 +1,174 @@
+html {
+    position: relative;
+    width: 320px;
+    height: 1605px;
+
+    background: #FFFFFF;
+}
+
+* {
+    margin: 0px;
+}
+
+
+.imagem {
+    position: absolute;
+    left: 10PX;
+    right: 0%;
+    top: 10PX;
+    bottom: -0.01%;
+}
+
+.texto1 {
+    position: absolute;
+    width: 101px;
+    height: 24px;
+    left: 60px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.644px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.hum-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 270px;
+    gap: 12px;
+    width: 42px;
+    height: 24px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.fundo-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+    gap: 100px;
+    position: absolute;
+    width: 320px;
+    height: 522px;
+    left: 0px;
+    top: 56px;
+    background: #043873;
+    background-image: url(../img/Element.png);
+}
+
+.imagem-element {
+
+    position: absolute;
+    left: -56.87%;
+    right: -199.39%;
+    top: -81.99%;
+    bottom: -91.21%;
+    opacity: 0.3;
+    transform: matrix(0.92, 0.29, -0.41, 0.95, 0, 0);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+}
+
+.texto2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+.texto3 {
+    width: 288px;
+    height: 120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 2;
+
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 10px;
+    width: 232px;
+    height: 70px;
+    background: #4F9CF9;
+    border-radius: 8px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    font-size: 16px;
+    font-family: 'Inter';
+    color: #FFFFFF;
+}
+
+.texto4 {
+
+    width: 288px;
+    height: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #212529;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.vetor {
+    position: absolute;
+    left: 44.51%;
+    right: 24.9%;
+    top: 32.89%;
+    bottom: 46.07%;
+    background: #FFE492;
+}
+
+@media screen and (max-width: 320px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 320px;
+        height: 56px;
+        left: 0px;
+        top: 0px;
+        background: #043873;
+    }
+}
